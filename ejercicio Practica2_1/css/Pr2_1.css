@@ -1,0 +1,40 @@
+body {
+  background: rgb(203, 202, 202);
+  font-family: sans-serif;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: justify;
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 8px;
+  font-size: 50px;
+}
+
+h2 {
+  background: gray;
+  color: white;
+  font-size: 35px;
+  padding: 5px;
+}
+
+p {
+  text-indent: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+img {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+em {
+  color: red;
+}
+
+strong {
+  background: white;
+}
