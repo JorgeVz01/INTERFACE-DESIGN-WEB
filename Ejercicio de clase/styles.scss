@@ -1,0 +1,46 @@
+// styles.scss
+@import '_variables';
+@import '_mixins';
+@import '_fonts';
+
+.gallery {
+  background-color: $gallery-bg-color;
+
+  .gallery-item {
+    background-color: $item-bg-color;
+    padding: 10px;
+    margin: 10px;
+
+    img {
+      max-width: 100%;
+      height: auto;
+      @include image-transition;
+    }
+
+    &:hover {
+      img {
+        opacity: 0.8;
+      }
+    }
+  }
+}
+
+// Operadores matemáticos
+.container {
+  width: 100%;
+}
+
+// Condicional para ajustar el tamaño de las imágenes
+$device: desktop;
+
+.gallery-item {
+  @if $device == desktop {
+    img {
+      width: $image-size-desktop;
+    }
+  } @else {
+    img {
+      width: $image-size-mobile;
+    }
+  }
+}

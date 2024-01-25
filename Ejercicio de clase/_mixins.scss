@@ -1,0 +1,4 @@
+// _mixins.scss
+@mixin image-transition {
+  transition: opacity $transition-duration ease-in-out;
+}

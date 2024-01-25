@@ -1,0 +1,23 @@
+Enunciado del Ejercicio:
+
+Crea estilos para una galería de imágenes en una página web utilizando Sass. Incluye las siguientes características:
+
+Define variables para los colores de fondo de la galería y de los elementos individuales.
+Utiliza anidamiento para organizar tus estilos de manera clara.
+Crea un mixin para aplicar una transición suave a las imágenes y úsalo en al menos dos lugares diferentes.
+Utiliza operadores para realizar operaciones matemáticas en al menos una propiedad.
+Crea un archivo parcial _fonts.scss que contenga estilos para cambiar la fuente del cuerpo del documento.
+Utiliza condicionales para ajustar el tamaño de las imágenes según el dispositivo. Define una variable $device y ajusta las propiedades según el dispositivo seleccionado.
+Importa todos tus archivos parciales en un archivo principal llamado styles.scss.
+
+
+Como instalar gestor de paquetes :
+
+https://community.chocolatey.org/courses/installation/installing
+
+Desde consola cmd(Modo Administrador):
+@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+
+choco install sass
+
+sass styles.scss:styles.css
